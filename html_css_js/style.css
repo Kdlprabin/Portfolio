@@ -1,0 +1,110 @@
+:root{
+    --primary-color:#2589BD;
+    --secondary-color:#38686A;
+    --text-color:#ffffff;
+    --text-color-outside: #525252;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: var(--primary-color);
+    display: flex;
+    padding: 10px;
+    color: var(--text-color);
+    justify-content: space-between;
+    border-radius: 30px;
+    width: 90vw;
+    margin-top: 20px;
+    align-items: center;
+    font-size: 20px;
+    color: var(--text-color);
+}
+.nav-contents{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    width: 70%;
+}
+.line{
+    border-left: 2px solid var(--text-color);
+}
+.logo{
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    font-size: 28px;
+    padding: 10px;
+    width: 12%;
+    height: 90%;
+    text-align: center;
+}
+
+.blog{
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    padding: 10px;
+    height: 90%;
+    width:15%;
+    text-align: center;
+}
+.heroSection{
+    display: flex;
+    text-align: center;
+    width: 60vw;
+    font-size: 24px;
+}
+.main{
+    margin-top: 80px;
+}
+.name{
+    font-size: 64px;
+    background-color: var(--secondary-color);
+    display: inline;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--text-color);
+}
+.workname{
+    font-size: 64px;
+    margin-bottom: 80px;
+    color: var(--text-color-outside);
+}
+.desc{
+    color: var(--text-color-outside);
+}
+.circle{
+    border:1px solid var(--primary-color);
+    position:absolute;
+    border-radius: 50%;    
+}
+.circle-small{
+    top:272px;
+    right:-3vw;
+    width: 10vw;
+    height:10vw;
+}
+
+.circle-big{
+    top:125px;
+    left:-10vw;
+    width: 20vw;
+    height: 20vw;
+}
+
+#noStyle{
+    text-decoration: none;
+    color: var(--text-color);
+}
